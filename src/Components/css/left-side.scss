@@ -1,0 +1,16 @@
+.left-side {
+  @media only screen and (min-width: 0) {
+    padding: 24px 40px;
+    background: rgb(230, 231, 206);
+    background: linear-gradient(
+      0deg,
+      rgba(230, 231, 206, 1) 42%,
+      rgba(208, 202, 187, 1) 79%
+    );
+
+    .contact-details {
+      font-size: 12px;
+      font-family: Averta Std;
+    }
+  }
+}

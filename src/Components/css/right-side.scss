@@ -1,0 +1,61 @@
+@import "../../styles/vars.scss";
+
+.right-side {
+  @media only screen and (min-width: 0) {
+    padding: 60px 40px 0;
+    // background-color: $light-grey;
+    background: rgb(230, 231, 206);
+    background: linear-gradient(
+      0deg,
+      rgba(230, 231, 206, 1) 42%,
+      rgba(208, 202, 187, 1) 79%
+    );
+    img {
+      border-radius: 40px;
+    }
+    header {
+      position: relative;
+      figure {
+        position: absolute;
+        right: 0;
+        top: -80px;
+      }
+      h1 {
+        margin-bottom: 0;
+        font-size: 36px;
+        font-weight: 100;
+        font-family: "Averta Std", sans-serif;
+      }
+      h2 {
+        color: white;
+        margin-top: 8;
+        padding: 4px 12px;
+        display: inline-block;
+        background-color: $light-black;
+        font-family: "Averta Std", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+
+    .rating-level {
+      margin-bottom: 4px;
+    }
+    .text-component {
+      position: relative;
+      &:before {
+        content: attr(index);
+        width: 29px;
+        padding: 2px 4px;
+        font-size: 13px;
+        font-family: "Averta Std", sans-serif;
+        background-image: url("../../assets/counter-icon.svg");
+        background-repeat: no-repeat;
+        left: -50px;
+        display: block;
+        position: absolute;
+        color: white;
+      }
+    }
+  }
+}

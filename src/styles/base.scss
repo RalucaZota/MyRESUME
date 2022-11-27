@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    height: 100%;
+}
+
+@font-face {
+    font-family: Averta Std;
+    src: url("./fonts/AvertaStd-Regular.ttf");
+}
+
+@font-face {
+    font-family: Charter;
+    src: url("./fonts/Charter\ Regular.ttf");
+}

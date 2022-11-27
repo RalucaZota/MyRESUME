@@ -1,0 +1,12 @@
+.rating-level {
+    @media only screen and (min-width: 0) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+            font-size: 13px;
+            font-family: "Averta Std", sans-serif;
+        }
+
+    }
+}   
